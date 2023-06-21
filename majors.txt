@@ -1,37 +1,6 @@
-Accounting
-Aerospace
-Art
-Aviavtion
-Biology
-Business Administration
-Chemistry
-Communication
-Computer Science
-Counseling
-Criminology & Criminal Justice
-Cybersecurity
-Economics
-Emergency Management
-Engineering
-English
-Finance and Banking
-Foreign Lang & Literature
-Geography
-Geology
-Health and Kinesiology
-History
-International Studies
-Law and Society
-Management
-Mathematics
-Music
-Philosophy
-Physics
-Political Science
-Psychology
-Religion
-Sociology
-Statistics
-Sustainability
-Teacher Education
-Theatre
+College of Arts and Science
+College of Business Administration
+College of Education, Health, and Human Sciences
+College of Communication, Fine Arts, and Media
+College of Science & Technology
+College of Public Affairs and Communication Services
