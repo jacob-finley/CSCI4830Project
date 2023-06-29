@@ -1,0 +1,12 @@
+Question 1: pick a college, Arts and Sciences, Business and Administration, Education, Communications, Science and Technology, Public Affairs
+ans1, 1, 1, 1, 1, 1, 1
+Question 2: pick a college, Arts and Sciences, Business and Administration, Education, Communications, Science and Technology, Public Affairs
+ans2, 1, 1, 1, 1, 1, 1
+Question 3: This is an example but the right answer is Education, Arts and Sciences, Business and Administration, Education, Communications, Science and Technology, Public Affairs
+ans3, 0, 0, 1, 0, 0, 0
+Question 4: This is an example but the right answer is anything but Communications, Arts and Sciences, Business and Administration, Education, Communications, Science and Technology, Public Affairs
+ans4, 1, 1, 1, 0, 1, 1
+Question 5: Choose any college but some are worth more than others, Arts and Sciences, Business and Administration, Education, Communications, Science and Technology, Public Affairs
+ans5, 0, 1, 2, 3, 4, 5
+Question 6: What is your favorite college of the following, Arts and Sciences, Business and Administration, Education, Communications, Science and Technology, Public Affairs
+ans6, 5, 5, 5, 5, 5, 5
