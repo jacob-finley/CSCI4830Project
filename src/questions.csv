@@ -1,0 +1,75 @@
+Question 1: pick a college, Arts and Sciences, Business and Administration, Education, Communications, Science and Technology, Public Affairs
+1, 1, 1, 1, 1, 1
+Question 2: pick a college, Arts and Sciences, Business and Administration, Education, Communications, Science and Technology, Public Affairs
+1, 1, 1, 1, 1
+Question 3: This is an example but the right answer is Education, Arts and Sciences, Business and Administration, Education, Communications, Science and Technology, Public Affairs
+0, 0, 1, 0, 0, 0
+Question 4: This is an example but the right answer is anything but Communications, Arts and Sciences, Business and Administration, Education, Communications, Science and Technology, Public Affairs
+1, 1, 1, 0, 1, 1
+Question 5: Choose any college but some are worth more than others, Arts and Sciences, Business and Administration, Education, Communications, Science and Technology, Public Affairs
+0, 1, 2, 3, 4, 5
+Question 6: What is your favorite college of the following, Arts and Sciences, Business and Administration, Education, Communications, Science and Technology, Public Affairs
+5, 5, 5, 5, 5, 5
+Qestion 7: I get my chores done right away, strongly disagree, disagree, neutral, agree, strongly agree
+
+Qestion 8: I am not really interested in others, strongly disagree, disagree, neutral, agree, strongly agree
+
+Qestion 9: I seldom feel blue, strongly disagree, disagree, neutral, agree, strongly agree
+
+Qestion 10: I talk to a lot of different people at parties, strongly disagree, disagree, neutral, agree, strongly agree
+
+Qestion 11: I make a mess of things, strongly disagree, disagree, neutral, agree, strongly agree
+
+Qestion 12: I am the life of the party, strongly disagree, disagree, neutral, agree, strongly agree
+
+Qestion 13: I am not intereested in abstract ideas, strongly disagree, disagree, neutral, agree, strongly agree
+
+Qestion 14: I have frequent mood swings, strongly disagree, disagree, neutral, agree, strongly agree
+
+Qestion 15: I sympathize with others' feeligns, strongly disagree, disagree, neutral, agree, strongly agree
+
+Qestion 16: I get upset easily, strongly disagree, disagree, neutral, agree, strongly agree
+
+Qestion 17: I have difficulty understadning abstract ideas, strongly disagree, disagree, neutral, agree, strongly agree
+
+Qestion 18: I feel others' emotions, strongly disagree, disagree, neutral, agree, strongly agree
+
+Qestion 19: I am not interested in other people's problems, strongly disagree, disagree, neutral, agree, strongly agree
+
+Qestion 20: I have a vivid imagination, strongly disagree, disagree, neutral, agree, strongly agree
+
+Qestion 21: I don't talk a lot, strongly disagree, disagree, neutral, agree, strongly agree
+
+Qestion 22: I do not have a good imagination, strongly disagree, disagree, neutral, agree, strongly agree
+
+Qestion 23: I keep in the background, strongly disagree, disagree, neutral, agree, strongly agree
+
+Qestion 24: I like order, strongly disagree, disagree, neutral, agree, strongly agree
+
+Qestion 25: I often forget to put things back in their proper place, strongly disagree, disagree, neutral, agree, strongly agree
+
+Qestion 26: My favorite assignemnts were ...
+
+Qestion 27: The assignments I finish first are ...
+
+Qestion 28: When working, I am relaxed most of the time
+
+Qestion 29: What class are you looking forward to most of all ...
+
+Qestion 30: What are you doing before an exam?
+
+Qestion 31: What type of professional would you invite to a long trip?
+
+Qestion 32: How do you spend time after school?
+
+Qestion 33: What do you do to unwind after finsihing homework?
+
+Qestion 34: How would your favorite teacher describe you?
+
+Qestion 35: What do you look forward to in your future career?
+
+Qestion 36: What is your dream vacation?
+
+Question 37: What types of movies are you more likely to watch?
+
+Question 38: Where would you rather solve a problem?
