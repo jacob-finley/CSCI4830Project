@@ -6,20 +6,74 @@ const fs = require('fs');
 const readline = require('readline');
 const stream = fs.createReadStream("./number.csv");
 const reader = readline.createInterface({ input: stream });
-const questions = []
+const questions = [];
 
 reader.on("line", (row) => {
-    tmp = row.split(', ')
+    let tmp = row.split(',')
     questions.push({
         questionText: tmp[0],
-        answerOptions: {
-            collegeARTSCI: tmp[7], 
-            collegeBA: tmp[8], 
-            collegeEDU: tmp[9], 
-            collegeCOM: tmp[10], 
-            collegeSCITECH: tmp[11], 
-            collegePUBLIC: tmp[12]
-        }
+        answerOptions: [
+            {
+            answerText: tmp[1],
+            scores: {
+                collegeARTSCI: tmp[7], 
+                collegeBA: tmp[8], 
+                collegeEDU: tmp[9], 
+                collegeCOM: tmp[10], 
+                collegeSCITECH: tmp[11], 
+                collegePUBLIC: tmp[12]}
+            },
+            {
+            answerText: tmp[2],
+            scores: {
+                collegeARTSCI: tmp[7], 
+                collegeBA: tmp[8], 
+                collegeEDU: tmp[9], 
+                collegeCOM: tmp[10], 
+                collegeSCITECH: tmp[11], 
+                collegePUBLIC: tmp[12]}
+            },
+            {
+            answerText: tmp[3],
+            scores: {
+                collegeARTSCI: tmp[7], 
+                collegeBA: tmp[8], 
+                collegeEDU: tmp[9], 
+                collegeCOM: tmp[10], 
+                collegeSCITECH: tmp[11], 
+                collegePUBLIC: tmp[12]}
+            },
+            {
+            answerText: tmp[4],
+            scores: {
+                collegeARTSCI: tmp[7], 
+                collegeBA: tmp[8], 
+                collegeEDU: tmp[9], 
+                collegeCOM: tmp[10], 
+                collegeSCITECH: tmp[11], 
+                collegePUBLIC: tmp[12]}
+            },
+            {
+            answerText: tmp[5],
+            scores: {
+                collegeARTSCI: tmp[7], 
+                collegeBA: tmp[8], 
+                collegeEDU: tmp[9], 
+                collegeCOM: tmp[10], 
+                collegeSCITECH: tmp[11], 
+                collegePUBLIC: tmp[12]}
+            },
+            {
+            answerText: tmp[6],
+            scores: {
+                collegeARTSCI: tmp[7], 
+                collegeBA: tmp[8], 
+                collegeEDU: tmp[9], 
+                collegeCOM: tmp[10], 
+                collegeSCITECH: tmp[11], 
+                collegePUBLIC: tmp[12]}
+            }
+        ]
     });
 })
 reader.on("close", () => {
