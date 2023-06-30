@@ -2,6 +2,31 @@
 // you should be able to copy paste to make more questions.
 // for now it's silly and requires 0 for all the other answers as it doesn't like null values, feel free to change but this should do for now
 
+const fs = require('fs');
+const readline = require('readline');
+const stream = fs.createReadStream("./number.csv");
+const reader = readline.createInterface({ input: stream });
+const questions = []
+
+reader.on("line", (row) => {
+    tmp = row.split(', ')
+    questions.push({
+        questionText: tmp[0],
+        answerOptions: {
+            collegeARTSCI: tmp[7], 
+            collegeBA: tmp[8], 
+            collegeEDU: tmp[9], 
+            collegeCOM: tmp[10], 
+            collegeSCITECH: tmp[11], 
+            collegePUBLIC: tmp[12]
+        }
+    });
+})
+reader.on("close", () => {
+    console.log(questions);
+})
+
+/*
 const questions = [
 
     //Question 1
@@ -97,5 +122,6 @@ const questions = [
 
     
 ];
+*/
 
 export default questions;

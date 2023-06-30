@@ -1,6 +1,4 @@
 // this file contains core backend functionality
-
-
 import React from 'react';
 import questions from './questions';
 
