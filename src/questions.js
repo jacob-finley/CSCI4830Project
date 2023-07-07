@@ -1,7 +1,12 @@
 // this file contains all the question data.
 // you should be able to copy paste to make more questions.
 // for now it's silly and requires 0 for all the other answers as it doesn't like null values, feel free to change but this should do for now
+import Papa from "papaparse";
+import { usestate } from 'react';
 
+
+
+/*
 const fs = require('fs');
 const readline = require('readline');
 const stream = fs.createReadStream("./number.csv");
@@ -9,7 +14,7 @@ const reader = readline.createInterface({ input: stream });
 const questions = [];
 
 reader.on("line", (row) => {
-    let tmp = row.split(',')
+    let tmp = row.split(',');
     questions.push({
         questionText: tmp[0],
         answerOptions: [
@@ -79,6 +84,7 @@ reader.on("line", (row) => {
 reader.on("close", () => {
     console.log(questions);
 })
+*/
 
 /*
 const questions = [
