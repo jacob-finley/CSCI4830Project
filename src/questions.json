@@ -1,84 +1,82 @@
 [
     {
-        "QuestionText": "Question 1: pick a college",
-        "answerOptions": [
-            {
-                "answerText": "Arts and Sciences",
-                "scores": {
-                    "collegeARTSCI": 1, "collegeBA": 0, "collegeEDU": 0, "collegeCOM": 0, "collegeSCITECH": 0, "collegePUBLIC": 0
-                }
-            },
-            {
-                "answerText": "Business and Administration",
-                "scores": {
-                    "collegeARTSCI": 0, "collegeBA": 1, "collegeEDU": 0, "collegeCOM": 0, "collegeSCITECH": 0, "collegePUBLIC": 0 
-                }
-            },
-            {
-                "answerText": "Education",
-                "scores": {
-                    "collegeARTSCI": 0, "collegeBA": 0, "collegeEDU": 1, "collegeCOM": 0, "collegeSCITECH": 0, "collegePUBLIC": 0
-                }
-            },
-            {
-                "answerText": "Communications",
-                "scores": {
-                    "collegeARTSCI": 0, "collegeBA": 0, "collegeEDU": 0, "collegeCOM": 1, "collegeSCITECH": 0, "collegePUBLIC": 0
-                }
-            },
-            {
-                "answerText": "Science and Technology",
-                "scores": {
-                    "collegeARTSCI": 0, "collegeBA": 0, "collegeEDU": 0, "collegeCOM": 0, "collegeSCITECH": 1, "collegePUBLIC": 0
-                }
-            },
-            {
-                "answerText": "Public Affairs",
-                "scores": {
-                    "collegeARTSCI": 0, "collegeBA": 0, "collegeEDU": 0, "collegeCOM": 0, "collegeSCITECH": 0, "collegePUBLIC": 1
-                }
-            }
-        ]
+        "QuestionText" : "Question 1: pick a college",
+        "answerOptions": ["Arts and Sciences", "Business and Administration", "Education", "Communications", "Science and Technology", "Public Affairs"],
+        "scores"       : [1, 1, 1, 1, 1, 1]
     },
     {
-        "questionText": "Question 2: pick a college",
-        "answerOptions": [
-            {
-                "answerText": "Arts and Sciences",
-                "scores": {
-                    "collegeARTSCI": 1, "collegeBA": 0, "collegeEDU": 0, "collegeCOM": 0, "collegeSCITECH": 0, "collegePUBLIC": 0
-                }
-            },
-            {
-                "answerText": "Business and Administration",
-                "scores": {
-                    "collegeARTSCI": 0, "collegeBA": 1, "collegeEDU": 0, "collegeCOM": 0, "collegeSCITECH": 0, "collegePUBLIC": 0
-                }
-            },
-            {
-                "answerText": "Education",
-                "scores": {
-                    "collegeARTSCI": 0, "collegeBA": 0, "collegeEDU": 1, "collegeCOM": 0, "collegeSCITECH": 0, "collegePUBLIC": 0
-                }
-            },
-            {
-                "answerText": "Communications",
-                "scores": {
-                    "collegeARTSCI": 0, "collegeBA": 0, "collegeEDU": 0, "collegeCOM": 1, "collegeSCITECH": 0, "collegePUBLIC": 0
-                }
-            },
-            {
-                "answerText": "Science and Technology",
-                "scores": {
-                    "collegeARTSCI": 0, "collegeBA": 0, "collegeEDU": 0, "collegeCOM": 0, "collegeSCITECH": 1, "collegePUBLIC": 0
-                }
-            },
-            {
-                "answerText": "Public Affairs",
-                "scores": {
-                    "collegeARTSCI": 0, "collegeBA": 0, "collegeEDU": 0, "collegeCOM": 0, "collegeSCITECH": 0, "collegePUBLIC": 1
-                }
-            }
-        ]
+        "questionText" : "Question 2: pick a college",
+        "answerOptions": ["Arts and Sciences", "Business and Administration", "Education", "Communications", "Science and Technology", "Public Affairs"],
+        "scores"       : [1, 1, 1, 1, 1, 1]
+    },
+    {
+        "questionText" : "Question 3: This is an example but the right answer is Education",
+        "answerOptions": ["Arts and Sciences", "Business and Administration", "Education", "Communications", "Science and Technology", "Public Affairs"],
+        "scores"       : [0, 0, 1, 0, 0, 0]
+    },
+    {
+        "questionText" : "Question 4: This is an example but the right answer is anything but Communications",
+        "answerOptions": ["Arts and Sciences", "Business and Administration", "Education", "Communications", "Science and Technology", "Public Affairs"],
+        "scores"       : [1, 1, 1, 0, 1, 1]
+    },
+    {
+        "questionText" : "Question 5: Choose any college but some are worth more than others",
+        "answerOptions": ["Arts and Sciences", "Business and Administration", "Education", "Communications", "Science and Technology", "Public Affairs"],
+        "scores"       : [0, 1, 2, 3, 4, 5]
+    },
+    {
+        "questionText" : "Question 6: What is your favorite college of the followin",
+        "answerOptions": ["Arts and Sciences", "Business and Administration", "Education", "Communications", "Science and Technology", "Public Affairs"],
+        "scores"       : [5, 5, 5, 5, 5, 5]
+    },
+    {
+        "questionText" : "Qestion 7: I get my chores done right away",
+        "answerOptions": [],
+        "scores"       : []
+    },
+    {
+        "questionText" : "Qestion 8: I am not really interested in others",
+        "answerOptions": [],
+        "scores"       : []
+    },
+    {
+        "questionText" : "Qestion 9: I seldom feel blue, strongly disagree",
+        "answerOptions": [],
+        "scores"       : []
+    },
+    {
+        "questionText" : "Qestion 10: I talk to a lot of different people at parties",
+        "answerOptions": [],
+        "scores"       : []
+    },
+    {
+        "questionText" : "",
+        "answerOptions": [],
+        "scores"       : []
+    },
+    {
+        "questionText" : "",
+        "answerOptions": [],
+        "scores"       : []
+    },
+    {
+        "questionText" : "",
+        "answerOptions": [],
+        "scores"       : []
+    },
+    {
+        "questionText" : "",
+        "answerOptions": [],
+        "scores"       : []
+    },
+    {
+        "questionText" : "",
+        "answerOptions": [],
+        "scores"       : []
+    },
+    {
+        "questionText" : "",
+        "answerOptions": [],
+        "scores"       : []
     }
 ]
