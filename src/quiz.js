@@ -74,15 +74,6 @@ function Quiz() {
         }
 
 
-        console.log(scores);
-        console.log("\n");
-        console.log("ArtsSCI: " + scores.collegeARTSCI);
-        console.log("BA: " + scores.collegeBA);
-        console.log("EDU: " + scores.collegeEDU);
-        console.log("COM: " + scores.collegeCOM);
-        console.log("SCITECH: " + scores.collegeSCITECH);
-        console.log("PUBLIC: " + scores.collegePUBLIC);
-        console.log("\n");
 
         // advances the question if there are more questions in question.js to go through
         const nextQuestion = currentQuestion + 1;
@@ -133,7 +124,7 @@ function Quiz() {
                                 key={index}
                                 onClick={() => handleAnswerButtonClick(questions[currentQuestion].scores, index)}
                             >
-                                {answerOption} {index}
+                                {answerOption}
                             </button>
                         ))}
                     </div>

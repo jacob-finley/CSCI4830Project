@@ -28,55 +28,5 @@
         "questionText" : "Question 6: What is your favorite college of the followin",
         "answerOptions": ["Arts and Sciences", "Business and Administration", "Education", "Communications", "Science and Technology", "Public Affairs"],
         "scores"       : [5, 5, 5, 5, 5, 5]
-    },
-    {
-        "questionText" : "Qestion 7: I get my chores done right away",
-        "answerOptions": [],
-        "scores"       : []
-    },
-    {
-        "questionText" : "Qestion 8: I am not really interested in others",
-        "answerOptions": [],
-        "scores"       : []
-    },
-    {
-        "questionText" : "Qestion 9: I seldom feel blue, strongly disagree",
-        "answerOptions": [],
-        "scores"       : []
-    },
-    {
-        "questionText" : "Qestion 10: I talk to a lot of different people at parties",
-        "answerOptions": [],
-        "scores"       : []
-    },
-    {
-        "questionText" : "",
-        "answerOptions": [],
-        "scores"       : []
-    },
-    {
-        "questionText" : "",
-        "answerOptions": [],
-        "scores"       : []
-    },
-    {
-        "questionText" : "",
-        "answerOptions": [],
-        "scores"       : []
-    },
-    {
-        "questionText" : "",
-        "answerOptions": [],
-        "scores"       : []
-    },
-    {
-        "questionText" : "",
-        "answerOptions": [],
-        "scores"       : []
-    },
-    {
-        "questionText" : "",
-        "answerOptions": [],
-        "scores"       : []
     }
 ]
