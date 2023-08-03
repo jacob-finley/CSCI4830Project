@@ -1,32 +1,77 @@
 [
     {
-        "QuestionText" : "Question 1: pick a college",
-        "answerOptions": ["Arts and Sciences", "Business and Administration", "Education", "Communications", "Science and Technology", "Public Affairs"],
+        "QuestionText" : "Question 1: The assignment I would finish first is...",
+        "answerOptions": ["English Research Paper", "Stock Change Spreadsheet", "I like all assignments equally", "Speech Draft", "Science Lab", "Government Project"],
         "scores"       : [1, 1, 1, 1, 1, 1]
     },
     {
-        "questionText" : "Question 2: pick a college",
-        "answerOptions": ["Arts and Sciences", "Business and Administration", "Education", "Communications", "Science and Technology", "Public Affairs"],
+        "questionText" : "Question 2: Where would you rather vacation?",
+        "answerOptions": ["Art Museum", "Favorite Company Coporate Office", "A famous university", "Social Media Coporate Building", "A famous lab", "State/National Capital Building"],
         "scores"       : [1, 1, 1, 1, 1, 1]
     },
     {
-        "questionText" : "Question 3: This is an example but the right answer is Education",
-        "answerOptions": ["Arts and Sciences", "Business and Administration", "Education", "Communications", "Science and Technology", "Public Affairs"],
-        "scores"       : [0, 0, 1, 0, 0, 0]
+        "questionText" : "Question 3: Where do you excel in school?",
+        "answerOptions": ["Any classes that aren't STEM related (yuck)", "Being a leader", "Mentoring others", "Social Settings", "STEM related classes", "Debate"],
+        "scores"       : [1, 1, 1, 1, 1, 1]
     },
     {
-        "questionText" : "Question 4: This is an example but the right answer is anything but Communications",
-        "answerOptions": ["Arts and Sciences", "Business and Administration", "Education", "Communications", "Science and Technology", "Public Affairs"],
-        "scores"       : [1, 1, 1, 0, 1, 1]
+        "questionText" : "Question 4: When going to college, what are you focused on learning more about?",
+        "answerOptions": ["Writing excellent papers", "How to run a business", "Learning a bit of everything to teach others", "Improving my social skills", "Finding out how a computer works", "Leading others"],
+        "scores"       : [1, 1, 1, 1, 1, 1]
     },
     {
-        "questionText" : "Question 5: Choose any college but some are worth more than others",
-        "answerOptions": ["Arts and Sciences", "Business and Administration", "Education", "Communications", "Science and Technology", "Public Affairs"],
-        "scores"       : [0, 1, 2, 3, 4, 5]
+        "questionText" : "Question 5: What conference of the following would you attend?",
+        "answerOptions": ["\"Human Rights\"", "\"Economics\"", "\"Counseling\"", "\"Art\"", "\"Tech\"", "\"Crime Prevention\""],
+        "scores"       : [1, 1, 1, 1, 1, 1]
     },
     {
-        "questionText" : "Question 6: What is your favorite college of the followin",
-        "answerOptions": ["Arts and Sciences", "Business and Administration", "Education", "Communications", "Science and Technology", "Public Affairs"],
-        "scores"       : [5, 5, 5, 5, 5, 5]
+        "questionText" : "Question 6: What subreddit would you rather join??",
+        "answerOptions": ["r/History", "r/Organization", "r/Fitness", "r/Music", "r/programming", "r/politics"],
+        "scores"       : [1, 1, 1, 1, 1, 1]
+    },
+    {
+        "questionText" : "Question 7: What did you look forward to most in school?",
+        "answerOptions": ["Working on projects", "Leading others", "Tutoring others", "Talking with other students", "Working in the Computer Lab", "Speech/Debate"],
+        "scores"       : [1, 1, 1, 1, 1, 1]
+    },
+    {
+        "questionText" : "Question 8: The assignments I found the easiest/enjoyed the most are...",
+        "answerOptions": ["Research Papers", "Excel Spreadsheets", "I liked learning a bit of everything", "Anything Fine Arts related", "Creating a model", "Social Studies"],
+        "scores"       : [1, 1, 1, 1, 1, 1]
+    },
+    {
+        "questionText" : "Question 9: Where would you rather solve a problem?",
+        "answerOptions": ["In a library", "In an office", "At a university", "Coffee shop", "Online", "Wherever other people are"],
+        "scores"       : [1, 1, 1, 1, 1, 1]
+    },
+    {
+        "questionText" : "Question 10: What remote work would you enjoy the most?",
+        "answerOptions": ["Researching", "Business trade", "Teaching", "Blogging", "Programming", "I do not enjoy remote work"],
+        "scores"       : [1, 1, 1, 1, 1, 1]
+    },
+    {
+        "questionText" : "Question 11: What kind of class would you rather attend?",
+        "answerOptions": ["History of the World", "Management", "Elementary Education", "Journalism", "Computer Engineering", "Emergency Management"],
+        "scores"       : [1, 1, 1, 1, 1, 1]
+    },
+    {
+        "questionText" : "Question 12: Which team would you join?",
+        "answerOptions": ["Researchers", "Executive team", "Teachers union", "Social Media influencers", "Engineering crew", "City office"],
+        "scores"       : [1, 1, 1, 1, 1, 1]
+    },
+    {
+        "questionText" : "Question 13: What project would you rather lead",
+        "answerOptions": ["New scientific breakthrough", "Developing a new product", "Creating new health guidelines for student atheletes", "Increasing a parties social media presence", "Developing new software", "Creating new emegency precautions"],
+        "scores"       : [1, 1, 1, 1, 1, 1]
+    },
+    {
+        "questionText" : "Question 14: Of the following people, whos class would you rather attend?",
+        "answerOptions": ["Stephen King", "Warren Buffet", "Michael Phelps", "Elton John", "Steve Jobs", "John F. Kennedy"],
+        "scores"       : [1, 1, 1, 1, 1, 1]
+    },
+    {
+        "questionText" : "Question 15: What group of people would you rather lead?",
+        "answerOptions": ["Scientists", "Executive team/Upper level management", "Students", "I wan't to be seen as an equal", "Software Developers", "City council members"],
+        "scores"       : [1, 1, 1, 1, 1, 1]
     }
 ]
