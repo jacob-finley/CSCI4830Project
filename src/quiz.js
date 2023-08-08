@@ -72,9 +72,6 @@ function Quiz() {
                 collegePUBLIC: prevScores.collegePUBLIC  + scores[5]
             }));
         }
-
-
-
         // advances the question if there are more questions in question.js to go through
         const nextQuestion = currentQuestion + 1;
         if (nextQuestion < questions.length) {
@@ -102,11 +99,11 @@ function Quiz() {
 
     // the final screen shows all points accumulated for testing purposes.
     return (
-        <div className="question-container">
+        <div className="question-container" data-testid="quiz-screen">
 
             {showScore ? (
                 
-                <div className="final-result-container">
+                <div className="final-result-container" data-testid="result-screen">
                     <h2>Quiz Results</h2>
                     <h3>Best Fits: {[bestFits(scores)]}</h3>
                     <br></br>
@@ -115,7 +112,7 @@ function Quiz() {
             ) : (
                 // handles displaying buttons and the current question. 
                 // pulls questions from questions.js
-                <div className="question-card">
+                <div className="question-card" data-testid="question-screen">
                     <h2><div className="question-number">Question {currentQuestion + 1} of {questions.length}</div></h2>
                     <h2>{questions[currentQuestion].questionText}</h2>
                     <div className="answer-container">
@@ -130,7 +127,6 @@ function Quiz() {
                     </div>
                 </div>
             )}
-
         </div>
     );
 }
