@@ -113,14 +113,15 @@ function Quiz() {
                 // handles displaying buttons and the current question. 
                 // pulls questions from questions.js
                 <div className="question-card" data-testid="question-screen">
-                    <h2><div className="question-number">Question {currentQuestion + 1} of {questions.length}</div></h2>
+                    <h2><div className="question-number" data-testid="question-num">Question {currentQuestion + 1} of {questions.length}
+                    </div></h2>
                     <h2>{questions[currentQuestion].questionText}</h2>
-                    <div className="answer-container">
+                    <div className="answer-container" data-testid="answer-box">
                         {questions[currentQuestion].answerOptions?.map((answerOption, index) => (
                             <button
                                 key={index}
                                 onClick={() => handleAnswerButtonClick(questions[currentQuestion].scores, index)}
-                            >
+                            data-testid="button">
                                 {answerOption}
                             </button>
                         ))}
